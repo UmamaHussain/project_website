@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+        integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="styles.css">
+          <!--icons link-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+  integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Contact us</title>
+
+
+</head>
+<style>
+    body {
+        /* background-image: url('/pic1.jpg');
+        background-repeat: no-repeat; */
+        overflow: hidden;
+    }
+
+    li {
+        cursor: pointer;
+
+
+    }
+
+    /* li:hover {
+        background-color:lightblue;
+    } */
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+
+
+
+    #headsearch {
+        border-top: hidden;
+        border-right: hidden;
+        border-left: hidden;
+
+
+    }
+
+    h1 {
+        font-size: x-large;
+        cursor: pointer;
+        color: white;
+    }
+    
+</style>
+
+<body>
+    <nav class="sticky-top">
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+          <i class="fas fa-bars"></i>
+        </label>
+        <label class="logo">LIGHT VIEW.</label>
+        <ul class="navUl">
+          <li><a class="active" href="index.html">Home</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="ab.html">About</a></li>
+          <li><a href="contantus.html">Contact us</a></li>
+        </ul>
+      </nav>
+    <div class="container mt-5">
+
+        <div class="row ">
+
+            <div class="col-md-6 bg-grey p-2 ">
+                
+                <form>
+
+                    <div class="form-group">
+                        <label>Name</label>
+                        <input type="text" id="StudentId" class="form-control" placeholder="Name">
+                        <span id="StudentIdStatus" class=""></span>
+
+                    </div>
+                    <div class="form-group">
+                        <label>Email id</label>
+                        <input type="text" id="userName" class="form-control" placeholder="Email">
+                        <span id="NameStatus" class=""></span>
+
+                    </div>
+                    <div class="form-group mt-2">
+                        <label>Message</label>
+                        <textarea class="form-control" cols="20" rows="4"></textarea>
+                    </div>
+                    <button class="btn btn mt-2 float-end" id="buton">Submit</button>
+
+                </form>
+            </div>
+            <div class="col-md-6 ">
+
+            </div>
+        </div>
+    </div>
+    <!-- =========Footer========= -->
+    <footer class="container-fluid"> 
+
+        <div class="mt-5 d-flex flex-wrap align-content-center bg-dark "id="foot">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-md-4 d-flex justify-content-center d-flex flex-wrap align-content-center">
+                <ul class="footerText">
+                  <li><h4>Based</h4></li>
+                  <li >Html</li>
+                  <li >Bootstrap 5</li>
+                  <li >JavaScript</li>
+                  <li >Local Libraries</li>
+                </ul>
+              </div>
+      
+              <div class="col-md-4 d-flex flex-wrap align-content-center">
+                <ul class="footerText">
+                  <h4>Web Links</h4>
+                  <li><a href="index.html">Home</a> </li>
+                  <li><a href="gallery.html">Gallery</a> </li>
+                  <li><a href="#">About</a> </li>
+                  <li><a href="#">Contact us</a> </li>
+                </ul>
+              </div>
+      
+      
+              <div class="col-md-4 pt-4">
+                <ul class="footerText">
+                  <h4>Social Links</h4>
+                  <li>
+                    <a href="https://www.facebook.com/">
+                    <i class="fab fa-facebook-square fa-2x "></i>
+                  </a> 
+                </li>
+                <a href="https://web.whatsapp.com/">
+                  <i class="fab fa-whatsapp-square fa-2x "></i
+                ></a>
+                  <li>
+                    <a href="https://www.youtube.com/">
+                      <i class="fab fa-youtube fa-2x "></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="https://twitter.com/"><i class="fab fa-twitter fa-2x "></i></a>
+                     </li>
+                  <li>
+                     </li>
+                </ul>
+               </div>                                   
+              <div class="container-fluid" id="line1">
+                </div>
+            </div>
+              <p class="footerText" id="lastline">@ Power By "Top Tech Batch" 2022.All rights reserved</p>
+      
+      </footer>
+      
+      
+</body>
+
+</html>
